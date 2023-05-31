@@ -9,7 +9,7 @@ const assertEquals = function(actual, expected) {
 };
 
 // TEST CODE
-assertEqual("Hello World", "Hello World");
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(3, 6);
+assertEquals("Hello World", "Hello World");
+assertEquals("Lighthouse Labs", "Bootcamp");
+assertEquals(1, 1);
+assertEquals(3, 6);
