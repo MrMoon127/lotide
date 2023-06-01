@@ -1,6 +1,6 @@
 
 // EXTRA CODE FOR TEST FUNCTION
-const assertEquals = function(actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -32,6 +32,6 @@ const bestTVShowsByGenre = {
   drama:  "The Wire"
 };
 
-assertEquals(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-assertEquals(findKeyByValue(bestTVShowsByGenre, "Kung-fu Panda"), "action");
-assertEquals(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "Kung-fu Panda"), "action");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
