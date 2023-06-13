@@ -1,5 +1,5 @@
 
-const assertEqual = require('../assertEqual')
+const assertEqual = require('../assertEqual');
 
 assertEqual("Hello World", "Hello World");
 assertEqual("Lighthouse Labs", "Bootcamp");
